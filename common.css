@@ -186,6 +186,15 @@ figcaption {
 }
 
 
+/* ---------------------------- specific page ---------------------------- */
+@media screen and (min-width: 1280px) {
+	[id="2nd_OpenMeeting"] img {
+		max-width: 50%;
+		height: auto;
+	}
+}
+
+
 /* ---------------------------- footer ---------------------------- */
 footer {
 	padding: 20px;
@@ -245,6 +254,11 @@ footer {
 
 	section table {
 		font-size: 18px;
+	}
+	
+	section img {
+		max-width: 100%;
+		height: auto;
 	}
 
 	/* ---------------------------- footer ---------------------------- */
